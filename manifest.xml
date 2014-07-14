@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD component 1.0//EN" "http://joomla.org/xml/dtd/1.5/component-install.dtd">
+<install type="component" version="1.5">
+  <name>joominajszarinpalzg</name>
+  <creationDate>اردیبهشت - 1393</creationDate>
+  <author>Joomina.ir - امیررضا تهرانی</author>
+  <authorEmail>admin@joomina.ir</authorEmail>
+  <authorUrl>Joomina.ir</authorUrl>
+  <copyright>Joomina.ir</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>0.9</version>
+  <description><![CDATA[<body link="#0170CA" alink="#008080" vlink="#0170CA"><div align="center"><table border="1" cellpadding="6" cellspacing="0" id="table1" bordercolor="#e5e5e5" style="font-family: Tahoma" width="90%" dir="rtl"><tr><td rowspan="6" width="190" height="200"><img border="0" src="http://www.topjoomina.ir/download.php?imgf=13233526261.jpg" width="202" height="190"></td><td colspan="2" bgcolor="#ff6600"><p align="center"><b><a style="text-decoration: none" target="_blank" href="http://www.joomina.ir"><font color="#FFFFFF">وب سایت جومینا</font></a>&nbsp;تقدیم میکند	</b> </p></td></tr><tr><td width="150" bgcolor="#0170ca"><font size="2" color="#FFFFFF">نام افزونه :</font></td><td bgcolor="#f5f5f5"><span lang="fa">اتصال joomshopping به درگاه زرین پل</span></td></tr><tr><td width="150" bgcolor="#0170ca"><font size="2" color="#FFFFFF">توضیحات:</font></td><td bgcolor="#f5f5f5">به کمک این پلاگین قادر خواهید بود تا فروشگاه ساز Joomshopping که فارسی شده آن نیز در سایت جومینا منتشر شده است را به درگاه زرین پل متصل نمایید - توجه لطفا در صورتی که تمایل داشتید تا این افزونه را حذف نمایید آن را به صورت دستی پاک کنید</span></td></tr><tr><td width="150" bgcolor="#0170ca"><font color="#FFFFFF"><font size="2">توسعه دهنده برای</font><span lang="fa"><font size="2"> ایرانیان:</font></span></font></td><td bgcolor="#f5f5f5"><span lang="fa">وب سایت جومینا</span></td></tr><tr><td width="150" bgcolor="#0170ca"><font size="2" color="#FFFFFF">برنامه نویسی شده<span lang="fa"> توسط</span> :</font></td><td bgcolor="#f5f5f5">امیررضا تهرانی - تیم برنامه نویسی جومینا</td></tr><tr><td width="150" bgcolor="#0170ca"><font size="2" color="#FFFFFF">مراجع جوملا<span lang="fa"> ایرانی</span>:</font></td><td bgcolor="#f5f5f5">	<p align="center"><a style="text-decoration: none" target="_blank" href="http://www.joomina.ir">مرکز ارائه خدمات به طراحان وب</a><span lang="fa">&nbsp;&nbsp; ا&nbsp;&nbsp; </span>	<a style="text-decoration: none" target="_blank" href="http://forum.joomina.ir">انجمن تخصصی جوملا</a><span lang="fa">&nbsp;&nbsp; ا&nbsp;&nbsp;&nbsp;</span><a style="text-decoration: none" target="_blank" href="http://joominamarket.com">فروشگاه افزونه های تخصصی جوملا</a>&nbsp;&nbsp;<span lang="fa">ا</span>&nbsp;&nbsp;<a style="text-decoration: none" target="_blank" href="http://joominahost.com">هاستینگ منطبق بر جوملا</a></td></tr></table><br/><table>
+  <tr><td>تلفن گویــا : </td><td> 021 - 24521302 </td></tr></table></div>]]></description>
+
+  <installfile>install/install.package.php</installfile>
+  <uninstallfile>install/uninstall.package.php</uninstallfile>
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">install/sql/install.sql</file>
+    </sql>
+  </install> 
+  <administration>
+    <files folder="admin">
+	  <folder>js</folder>
+      <folder>install</folder>	  
+    </files>
+  </administration>
+  <params/>
+</install>
