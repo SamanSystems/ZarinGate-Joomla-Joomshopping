@@ -88,7 +88,7 @@ class pm_zarinpalzg extends PaymentRoot{
 
         </form>   
         
-        <?php var_dump($pmconfigs);echo "<br>".  $redirectAddress;echo "در حال انتقال به صفحه پرداخت . لطفا کمی صبر نمایید" ?>
+        <?php echo "<br>".  $redirectAddress;echo "در حال انتقال به صفحه پرداخت . لطفا کمی صبر نمایید" ?>
         <br>
         <script type="text/javascript">document.getElementById('paymentform').submit();</script>
         </body>
